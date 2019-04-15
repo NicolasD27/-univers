@@ -1,1 +1,43 @@
 // Specific CSS for your home-page
+.projects-container {
+	width: 25%;
+}
+
+.tasks-container {
+	width: 50%;
+}
+
+.comments-container {
+	width: 25%;
+}
+
+.app {
+	display: flex;
+}
+
+.modal {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	right: 40px;
+	bottom: 40px;
+	background-color: papayawhip;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: transparent;
+}
+
+.active {
+	color: black;
+	font-weight: bold;
+	&:hover {
+		color: black;
+		text-decoration: none;
+	}
+}
